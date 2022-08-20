@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+</head>
+<body>
+  <button type="button" onclick="myFunc()">Click me please</button>
+  <p id="deno"> </p>
+  <p id="hey">My Dear, I was coded </p>
+  <button type="button" onclick="myFunc()">Click me to change text</button>
+  <p id="lo"></p>
+  <button type="button" onclick="myFunc()"> Show product</button>
+  <p id="dio"></p>
+  <p id="dal"></p>
+<script>
+
+// Using console.log 
+ var x = 5;
+ var y = 6;
+ var z = (x * y);
+ console.log (z);
+ 
+ // Using alert 
+ function myFunc(){
+   var a = 1;
+   var b = 2;
+   var c = (a + b);
+   alert(c);
+ }
+ 
+ // Writing to HTML Element 
+ var m = 4;
+ var n = 5;
+ var h = (m * n);
+ document.getElementById("deno").innerHTML = h;
+ 
+ // Using document.write()
+  function myFunc(){
+    var g = 4;
+    var h = 3;
+    var j = (g * h);
+    document.write(j); /* I am displaying using another method */
+  }
+  
+// Changing text 
+  function myFunc(){
+  document.getElementById("hey").innerHTML = "Havent I changed" ;}
+  
+  // Case Sensitive
+   function myFunc(){
+     var num = 5;
+     var Num = 6;
+     
+  // The above statements are totally different 
+   }
+   /* My first comment
+      My second comment
+      My third comment*/
+      
+  function myFunc(){
+    var x = 12;
+    var y = 03;
+    var z = (x * y);
+    document.getElementById("lo").innerHTML = z;z
+
+ // Using String Variables
+    var firstName = "Lwebuga";
+    var lastName  = "Charles";
+    var age       = 20;
+    document.write( "<br>" + firstName + "" + lastName + "<br>");
+    document.write(age);
+    
+  // Assigning value later 
+    var k;
+    k = 10;
+    document.write( "<br>" + k);
+    
+  // Declaration of many variables in a single statement 
+    var x = 8, y = 9, z = (x + y);
+    document.write("<br>" + z);
+    
+  // Strings
+    var Firstname = "Namata";
+    var Lastname = "Scovia";
+    document.write("<br>" + Firstname + "" + Lastname); 
+    
+  // Use of Quotes
+    var sentence1 = 'Her name is "Juliet " ';
+    var sentence2 = "Her name is 'Juliet' ";
+    document.getElementById("dio").innerHTML = sentence1 + "<br>" + sentence2
+
+  // Decimals
+  var a = 2.5;
+  var b = 3;
+  var c = (a * b);
+  document.write("<br>" + c);
+  
+ // Undefined variables
+   var title;
+   document.getElementById("dal").innerHTML = title ;
+ 
+</script>
+</body>
+</html>

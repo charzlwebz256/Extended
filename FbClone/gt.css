@@ -1,0 +1,85 @@
+body{
+  font-family: Times New Roman;
+}
+.overall-container{
+  display: flex;
+}
+.container1{
+    display: flex;
+}
+.container1 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.container2{
+    display: flex;
+}
+.container2 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.container3{
+    display: flex;
+}
+.container3 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.container4{
+    display: flex;
+}
+.container4 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.container5{
+    display: flex;
+}
+.container5 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.container6{
+    display: flex;
+}
+.container6 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.container7{
+    display: flex;
+}
+.container7 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.container8{
+    display: flex;
+}
+.container8 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.container9{
+    display: flex;
+}
+.container9 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.container10{
+    display: flex;
+}
+.container10 img{
+    height: 80px;
+    border-radius: 50%;
+}
+.Group4{
+  margin-left: 90px;
+}
+.Group3{
+  margin-left: 200px;
+}
+.head{
+  display: flex;
+}
